@@ -20,4 +20,19 @@ let citation = document.createElement('text');
 let auteur = document.createElement('author');
 
 
+citation.textContent = quote; // insérer les valeurs des paramètres dans les éléments
+auteur.textContent = author;
+
+
+<div id="quote"/>
+let citationsContainer = document.getElementById('citations-container'); // récupérer le conteneur des citations
+let authorContainer = document.getElementById('author-container'); // récupérer le conteneur des auteurs
+citationsContainer.appendChild(citation); // ajouter l'élément citation au conteneur  
+
+
+
+// etape 6
+
+
+
 }
