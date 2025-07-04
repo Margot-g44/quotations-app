@@ -1,17 +1,11 @@
-addEventListener('DOMContentLoaded', () => {
-    let text = document.getElementById('citations-input');
-    let author = document.getElementById('auteur-input');
+function recupererValeurs() {
+    // Récupérer les éléments du formulaire par leur ID
+    var text = document.getElementById("citations-input").value;
+    var author = document.getElementById("auteur-input").value;
 
-    form.addEventListener('submit', function(event) {
-        event.preventDefault();
-        const quoteInput = document.getElementById('quoteInput');
-        const quoteText = quoteInput.value.trim();
+    // Afficher les valeurs récupérées
+    console.log("Nom :", citations-input);
+    console.log("Email :", auteur-input);}
 
-        if (quoteText) {
-            const listItem = document.createElement('li');
-            listItem.textContent = quoteText;
-            quoteList.appendChild(listItem);
-            quoteInput.value = '';
-        }
-    });
-})
+    // Vous pouvez maintenant utiliser ces valeurs comme vous le souhaitez
+    
