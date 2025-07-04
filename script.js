@@ -18,7 +18,9 @@ function recupererValeurs() {
 function addquote(quote, author) {
 let citation = document.createElement('text');
 let auteur = document.createElement('author');
+quoteCount+=1;
 
+}
 
 citation.textContent = quote; // insérer les valeurs des paramètres dans les éléments
 auteur.textContent = author;
@@ -27,12 +29,12 @@ auteur.textContent = author;
 <div id="quote"/>
 let citationsContainer = document.getElementById('citations-container'); // récupérer le conteneur des citations
 let authorContainer = document.getElementById('author-container'); // récupérer le conteneur des auteurs
-citationsContainer.appendChild(citation); // ajouter l'élément citation au conteneur  
+quote-list.appendChild(citation); // ajouter l'élément citation au conteneur  
 
 
 
 // etape 6
 
+quoteCount = 0
 
 
-}
